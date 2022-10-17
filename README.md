@@ -1,9 +1,11 @@
-![Logo animado azul neon futurista para tecnologia](https://user-images.githubusercontent.com/113690864/196208072-83468c6e-010f-43fa-a5c3-0f62f08121d5.gif)
+![Logo animado azul neon futurista para tecnologia](https://user-images.githubusercontent.com/113690864/196211154-e78a5f34-7531-4f03-be8d-c2e7d1082f4f.gif)
+## Curso Discover - Fase Fundamentar - Plataforma Rocketseat
 
-# PREPARAÇÃO FRONTEND
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=36DBEC&style=for-the-badge)
 
-## CURSO DA ROCKETSEAT
+## ABOUT US
 Este repositório tem como por objetivo registar meu desenvolvimento e projetos aplicados no curso de Front-End, ofertando pela plataforma Rocketseat.
+
 
 ## Conteúdo 
 - Aulas do Curso
