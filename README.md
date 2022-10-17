@@ -1,0 +1,20 @@
+# PREPARAÇÃO FRONTEND
+## CURSO DA ROCKETSEAT
+Este repositório é voltado para compor as atividades, provas e projetos no geral feitos na linguagem de programação java focado em POO no terceiro período do meu curso - SI -
+
+## Conteúdo 
+- Aulas do Curso
+  - Estudando html e css - 2 ao 9
+  - Javascript e dom - 10 ao 15
+  - Node - 16, 17 e 18
+  - SQL - 19
+  - POO - 21
+  - Funcional - 22
+  - Git e Github - 23 e 24
+  - HTTP - 25
+- Exercícios do Curso
+  - NomeDoExercicio
+- Desafios do Curso
+  - AulaX - NomeDoProjeto
+
+  
