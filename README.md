@@ -1,6 +1,6 @@
 # PREPARAÇÃO FRONTEND
 ## CURSO DA ROCKETSEAT
-Este repositório é voltado para compor as atividades, provas e projetos no geral feitos na linguagem de programação java focado em POO no terceiro período do meu curso - SI -
+Este repositório tem como por objetivo registar meu desenvolvimento e projetos aplicados no curso de Front-End, ofertando pela plataforma Rocketseat.
 
 ## Conteúdo 
 - Aulas do Curso
