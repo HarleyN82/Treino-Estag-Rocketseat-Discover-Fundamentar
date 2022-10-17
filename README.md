@@ -6,12 +6,8 @@
 ## ABOUT US
 > Este repositório tem como por objetivo registar meu desenvolvimento e projetos aplicados no curso de Front-End, ofertando pela plataforma Rocketseat.
 
-
-
 ## Conteúdo 
-### color:'36DBEC'>Aulas do Curso</h3>
-`#36DBEC`
-<font color="#36DBEC">This is some text!</font>
+### Aulas do Curso
 - `Estudando HTML e CSS` - 2 ao 9
 - `Javascript e dom` - 10 ao 15
 - `Node` - 16, 17 e 18
