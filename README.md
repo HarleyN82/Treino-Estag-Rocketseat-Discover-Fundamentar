@@ -9,7 +9,7 @@
 
 
 ## Conteúdo 
-### Aulas do Curso
+### color:'36DBEC'>Aulas do Curso</h3>
 - `Estudando HTML e CSS` - 2 ao 9
 - `Javascript e dom` - 10 ao 15
 - `Node` - 16, 17 e 18
