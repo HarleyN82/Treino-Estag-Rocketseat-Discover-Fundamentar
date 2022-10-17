@@ -1,4 +1,7 @@
+![Logo animado azul neon futurista para tecnologia](https://user-images.githubusercontent.com/113690864/196208072-83468c6e-010f-43fa-a5c3-0f62f08121d5.gif)
+
 # PREPARAÇÃO FRONTEND
+
 ## CURSO DA ROCKETSEAT
 Este repositório tem como por objetivo registar meu desenvolvimento e projetos aplicados no curso de Front-End, ofertando pela plataforma Rocketseat.
 
