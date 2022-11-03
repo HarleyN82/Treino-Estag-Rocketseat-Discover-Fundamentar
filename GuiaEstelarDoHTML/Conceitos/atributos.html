@@ -1,0 +1,77 @@
+<!-- 
+    Atributos HTML 
+    - informações extras
+    - configurações
+-->
+
+<img src="" alt="">
+
+<!--
+Há também os atributos booleanos, que não precisam de conteúdo, 
+booleano significando que apenas possuem dois tipos de valores, 
+sendo eles verdadeiro ou falso, não havendo texto, apenas essas duas opções.
+-->
+
+<input type="text" disabled>
+
+<!--
+Outro fator que devemos levar em consideração são as aspas, 
+recomendado apenas o uso das aspas duplas, para não desencadear 
+problemas no código.
+
+    - omissão
+    - simples
+    - duplas
+-->
+
+<a href=https://google.com target=""></a> <!--Pode ser interpretado de forma errada-->
+<a href='' title="Isn't"></a> <!--Vai ter problemas. Use duplas.-->
+<a href=""></a> <!--É a correta e evitar interpretações errôneas.-->
+
+<!--
+    Atributos Globais mais utilizados
+    - class
+    - contenteditable - permite que eu edite o conteúdo, mas ao salvar a página perde a modificação
+    - data-*
+    - hidden
+    - id
+    - style 
+    - tabindex
+    - title
+-->
+
+<div class="carrinho" contenteditable="true">
+    <!--classificou e permite que eu edite os textos-->
+    conteúdo
+</div>
+
+<div class="carrinho" data-qualquer-nome-aqui="" id="name">
+    <!--elementos aqui dentro-->
+    conteúdo
+</div>
+
+<div class="carrinho" hidden>
+    <!--classificou e escondeu-->
+    conteúdo
+</div>
+
+<div class="carrinho" style="color: red;">
+    <!--elementos aqui dentro-->
+    conteúdo
+</div>
+
+<div tabindex="1">
+    conteúdo
+</div>
+
+<div tabindex="2">
+    conteúdo
+</div>
+
+<div tabindex="3">
+    conteúdo
+</div>
+
+<div title="Definir um Título">
+    conteúdo
+</div>
