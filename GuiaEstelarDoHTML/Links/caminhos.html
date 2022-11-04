@@ -1,0 +1,43 @@
+
+<!--
+    URLs e Caminhos dos Arquivos
+
+    - Uniform Resource Locator
+        - https:ww.rocketseat.com.br
+        - Sequência de texto que define onde algo está localizado na Web 
+    - URL usam caminhos para encontrar arquivos
+
+    - Caminhos dos arquivos
+        - Onde, no explorador de arquivos, um recurso está localizado.
+-->
+
+<a href="https://google.com" target="">Conteúdo</a>
+
+<!--
+    Para o mesmo diretório, local, raiz apenas colocamos o nome do arquivo no href.
+    Para entrar em um diretório colocamos o nome do diretório e /, como no exemplo "outros/conteudo-a-element.html"
+    Para sair de um diretório colocamos ../ ,ele sairá do diretório, semelhante a sair de uma caixa que está dentro de outro.
+    E por fim o diretório raiz especificamente, usamos apenas ./ , o próprio VSCode irá completar.
+    Caso você coloque um arquivo que não existe ou mesmo está no diretório errado, vai dar erro de não ter encontrado o arquivo.
+-->
+
+<a href="./ancora.html">Aprendendo sobre Âncora</a>
+<a href="../Conceitos/atributos.html">Atributos do HTML</a>
+
+<!--
+    Caminhos Absolutos vs Relativos
+
+    - Absolutos
+        - inclui protocolo e nome de domínio
+            - http:ww.rocketseat.com.br/projeto/index.html
+        - sempre apontará para o mesmo local, pois é absoluto
+    
+    - Relativos
+        - relativo à página aberta no momento
+        - apontará para lugares diferentes
+        - relativo a minha pasta
+-->
+
+<a href="google.com" target="">Ir para o google</a>
+<a href="https://google.com">Absoluto:Ir para o google</a>
+
