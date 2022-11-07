@@ -1,0 +1,58 @@
+<!--
+    <table>
+
+    Prós
+    - Visualização de dados via linhas e colunas.
+    - Boa acessibilidade para leitura dos dados.
+
+    Contras 
+    - Pouco Flexível
+    - Precisa de estilização para melhor visualziação
+
+    Não usar
+    - Para criar seu layout
+-->
+
+<!--
+    Agora vamos dar uma melhor organizada na nossa tabela.
+    Colocaremos o nosso cabeçalho, na tag <thead></thead> e o nosso corpo no <tbody></tbody> e criaremos o rodapé usando <tfoot></tfoot> colocando os dados total.
+    Por fim poderemos colocar a tag <caption></caption> para descrever sobre o que a nossa tabela é, ficando mais ou menos assim:
+   
+    - tr, sendo o "r" de row (linha).
+    - td, sendo o "d" de description (descrição de cada linha)
+
+    Para fazer uma tabela básica, apenas precisaremos da tag <table></table>, dentro dela iremos usar a tag <tr></tr>(table row) para criar uma linha na tabela, e dentro dela usaremos a tag <th></th> para o cabeçalho.
+    Depois faremos o tr novamente, só que agora não sendo o cabeçalho, e sim o td.
+-->
+
+<table>
+
+    <caption>Pessoas por idade</caption> 
+    <!--Descreve o que a tabela está fazendo-->
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Mayk</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total:</td>
+            <td>2 Pessoas</td>
+        </tr>
+    </tfoot>
+
+</table>
