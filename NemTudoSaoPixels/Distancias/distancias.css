@@ -1,0 +1,33 @@
+#div1{
+    font-size: 18px;
+}
+
+#p1{
+    font-size: 2em; /* Relativo a fonte do pai: 18x2 = 36.*/
+}
+
+/*Se não tiver um elemento pai, então o filho irá buscar no elemento raiz.*/
+
+#div2{
+    font-size: 32px;
+}
+
+#p2{
+    font-size: 1.6rem;
+}
+
+/* Para alterar o elemento root é só usar:
+
+:root {                          html {
+	font-size: 18px;     OU         font-size: 18px; 
+}                                {
+
+*/
+
+#div3{
+    font-size: 32px;
+}
+
+#p3{
+    font-size: 1.6vw; /* viewport largura*/
+}

@@ -1,0 +1,9 @@
+li {
+    font-size: 80%;
+}
+
+div {
+    background-color: blue;
+    width: 100%; /*100% da largura do body (pai)*/
+    height: 100px;
+}

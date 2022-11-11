@@ -1,0 +1,15 @@
+body{
+    height: 100vh; /*Com isso, limitamos o tamanho do body*/
+    margin: 0;
+}
+
+.box{
+    height: calc(50% + 20px); /*Metade da foto + 20px*/
+    width:  100%;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* A imagem não foi mostrada, porque os 50% precisam buscar de algo e como o 
+body não tem uma altura definida, ele se limita ao que está dentro das tags.*/

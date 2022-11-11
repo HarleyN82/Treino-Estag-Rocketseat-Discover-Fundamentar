@@ -1,0 +1,22 @@
+body{
+    height: 100vh; /*Com isso, limitamos o tamanho do body*/
+    margin: 0;
+}
+
+.box{
+    height: calc(50% + 20px); /*Metade da foto + 20px*/
+    width:  100%;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box::after {
+	content: "Isso é uma string";
+    color:white;
+}
+
+/* Pseudo-Elemento: uma palavra-chave adicionada a um seletor CSS que permite 
+definir o estilo de uma parte específica do elemento HTML selecionado ou 
+estilizar apenas a primeira linha de um elemento de texto são apenas algumas 
+das possibilidades criadas por esse recurso. */
