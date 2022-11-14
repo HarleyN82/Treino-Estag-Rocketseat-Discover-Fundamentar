@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+
+div,section{
+
+    border: 1px solid rgb(115, 187, 188);
+    padding: 10px 2em 8px 50%;
+   
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0; /*Esse é o padrão que aplicamos */
+}
+
+div,section{
+    border: 1px solid rgb(188, 115, 115);
+    width: 100px;
+    height: 100px;
+
+    display: inline;
+    margin:0 2px; /*Esse somou, ficando 4px */
+
+    /*Com margin como "auto" */
+    
+}
+
+/* div{ 
+    margin-bottom: 8px; 
+}
+
+section{
+    margin-top: 8px; 
+} */
+
+/* 
+Me afastar 8px debaixo é o mesmo de afastar o top do elemento de baixo com 
+8px, então não se soma, mas apenas juntam-se para dar o mesmo resultado. 
+
+Se eu colocar um valor maior esse será prevalecido.
+*/

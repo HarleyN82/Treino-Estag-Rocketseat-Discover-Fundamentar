@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+div,section{
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
+
+    /* border-top: red solid 1em; */
+    border: 10px solid rgb(213, 118, 193); /*Border aplicada no lado de dentro */
+    border-top: dotted rgb(101, 192, 206) 4px;
+    box-sizing: border-box;
+
+    outline: rgb(150, 112, 197) 4px solid; /*Não altera valor da caixa*/
+   
+}
+
+/*O border faz soma com a caixa.*/
+/*O foco do elemento input é causado pelo outline*/

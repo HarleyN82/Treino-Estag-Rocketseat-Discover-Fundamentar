@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box; /*Geralemnte, esse é o padrão. Calculando tudo a partir da borda.*/
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px; /*Aumentei o tamanho nas laterais não respeitando o width.*/
+    box-sizing: border-box; /*Dessa forma, eu tenho o preenchimento interno, mas respeito a largura.*/
+}
+
+/* 
+
+O cálculo do tamanho total da coixa é feito pelo content-box, ou seja, o width
+afetará o conteúdo da caixa. Assim, ao colocar 20px no preenchimento interno o
+cálculo geral será a soma desses com os pixels anteriores, tendo 140px. Porque,
+estaremos contando de uma aborda a outra.
+
+Para que isso não aconteça, é possível mudar qual vai ser a referência para o calculo do tamanho da caixa adicionando a propriedade box-sizing: border-box; 
+
+Para que os 100px sejam verdadeiramente 100px, afetando a caixa em si, usaremos o 
+border-box.
+
+*/
+
+
+
