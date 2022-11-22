@@ -85,19 +85,3 @@ background-attachment: local;
 Ex: background: rgb(71, 171, 159) right top / 50px border-box;
 
 Quando for colocar o "size" coloca-se uma barra.
-
-### Gradient
-
-
-
-
-
-
-### Múltiplos Valores
-
-
-
-
-
-
-### Experimentar
