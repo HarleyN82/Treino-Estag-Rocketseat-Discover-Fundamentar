@@ -1,0 +1,4 @@
+p {
+	text-shadow: 1px 1px 1px red,
+	2px 2px 1px rgb(50, 155, 174); /* offset-x | offset-y | blur-radius | color */
+}
