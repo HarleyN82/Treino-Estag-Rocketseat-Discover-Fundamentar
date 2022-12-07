@@ -1,0 +1,60 @@
+<!--
+    <input type="url"/>
+
+    - Espera que o usuário digite uma url
+    - Irá validar se o valor digitado é uma url
+
+    # Atributos
+
+    - placeholder
+    - readonly/disabled
+    - value
+
+    - required
+
+    - multiple 
+        * o campo irá receber 1 ou mais emails, separado por vírgulas
+    
+    - minlength/maxlength
+        * O mínimo e/ou máximo valor que o campo irá conter
+    
+    - size
+        * Valor numérico indicando quantos caracteres esse email vai ter 
+    
+    - pattern
+        * Uso de expressão regular para validar o campo 
+        * exemplo: o usuário só poderá colcoar email domínio rocketseat.com.br
+            * pattern = ".*\.com\.br/.*"
+            * o ".*" qualquer coisa antes do https e depois do ".br" é válido
+            * o "\." significa que vai aceitar esse ponto de forma literal.
+    
+    - list
+        * o id de uma tag <datalist> que está no mesmo documento 
+        * <datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao usuário, quais valores estão disponíveis
+            * Os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão
+
+    - spellcheck
+        * Habilitar a verificação ortográfica para este input
+-->
+
+<form action="">
+    <datalist id="urlsdata">
+        <option>https://algumacoisa.com.br</option>
+        <option>https://duascoisas.com.br</option>
+        <option>https://trescoisas.com.br</option>
+    </datalist>
+    <input 
+        required
+        type="url" 
+        list="urlsdata"
+        spellcheck="false"
+        pattern = ".*\.com\.br/.*"
+        placeholder="https://example.com.br"
+        title="Somente domínios.com.br serão aceitos" 
+    />
+    <button type="submit">Enviar</button>
+</form>
+
+<!--
+    Caso use value não use placeholder, não por regra, mas por não fazer sentido.
+-->
