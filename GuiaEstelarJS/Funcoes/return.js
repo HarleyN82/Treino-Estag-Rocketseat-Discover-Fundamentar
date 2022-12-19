@@ -23,5 +23,5 @@ console.log(`A soma é ${sum(n1,n2)}`)
 console.log(total) 
 
 /* Eu consigo acessar essa informação, após executar a função, porque fica
-registrado a respsota e como o "total" é o retorno da função é o mesmo
+registrado a resposta e como o "total" é o retorno da função é o mesmo
 que chamar a própria função.*/
