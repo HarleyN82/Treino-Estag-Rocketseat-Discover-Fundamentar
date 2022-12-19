@@ -39,8 +39,14 @@ arr.splice(2,0,999);
 console.log(arr);
 
 //splice(indiceDeletado,quantidade)
+// 5(index para iniciar contagem) e 1(valor até onde ir)
 // A partir do índice remove apenas a quantidade dada
 arr.splice(5,1);
+console.log(arr);
+
+// slice(indiceDeletado,quantidadeDeElementosRemovidos)
+// remove 1 ou mais itens em qualquer posição do array
+arr.slice(1,1)
 console.log(arr);
 
 // indexOf
@@ -62,3 +68,10 @@ let novoArray = arr.map((elemento) => {
     return elemento * 2;
 });
 console.log(novoArray);
+
+/*Quero remover um elemento, mas não sei sua posição:*/
+
+let techs = ['html','node','css']
+let index = techs.indexOf('html')
+techs.splice(index,1)
+console.log(techs)
