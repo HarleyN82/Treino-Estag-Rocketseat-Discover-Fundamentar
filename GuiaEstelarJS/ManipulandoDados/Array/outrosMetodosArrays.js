@@ -1,6 +1,6 @@
 //length
 // Tamanho do array = Número de elementos
-var arr = [1,2,3,4,5];
+let arr = [1,2,3,4,5];
 console.log(arr.length);
 
 // push(valor)
@@ -49,8 +49,16 @@ console.log(arr.indexOf(5));
 
 // join(separador)
 // Consegue transformar array em string
-var arr2 = ["O","rato","roeu","a","roupa","do","rei","de","Roma"];
+let arr2 = ["O","rato","roeu","a","roupa","do","rei","de","Roma"];
 console.log(arr2.join(" "));
 
 // reverse
 console.log(arr2.reverse());
+
+// map
+// percorre todos os elementos do array e retorna algo específico
+let novoArray = arr.map((elemento) => {
+    console.log(elemento)
+    return elemento * 2;
+});
+console.log(novoArray);
