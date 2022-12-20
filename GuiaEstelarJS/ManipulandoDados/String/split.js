@@ -1,7 +1,14 @@
 /* Manipulando Strings e Números
 
     * Split
-    * Separa tudo dentro da variável frase de acordo com o que foi pedido dentro dos (), ou seja, se tivesse virgula ficaria (,).
+    * Divide uma string em substrings
+    * Retorna as substrings em um array
+    * Recebe 2 parâmetros, ambos opcionais: string.split(separador, limite)
+    * Não altera a string original
+    * Somente pode ser usado para strings
+
+    Obs: Separa tudo dentro da variável frase de acordo com o que foi pedido dentro dos (), ou seja, se tivesse virgula ficaria (,).
+
 */
 
 let phrase = "Eu amo ler e assistir!"
