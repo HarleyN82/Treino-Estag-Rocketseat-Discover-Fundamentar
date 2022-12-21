@@ -44,3 +44,10 @@ Obs: Core - Núcleo/Âmago
 ```
 
 Caso eu não coloque o ".", por exemplo, será um erro de sintaxe.
+
+## Referências
+https://www.freecodecamp.org/portuguese/news/como-contar-objetos-em-um-array/
+https://metring.com.br/expressoes-regulares-em-javascript
+https://www.delftstack.com/pt/howto/javascript/how-to-perform-case-insensitive-string-comparisons-in-javascript/
+https://www.freecodecamp.org/news/javascript-string-comparison-how-to-compare-strings-in-js/
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
