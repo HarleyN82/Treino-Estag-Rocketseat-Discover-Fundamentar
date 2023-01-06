@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto & display=swap");
+
+
+/*Selectors - Combinators*/
+
+body{
+    margin: 10px;
+    padding: 0;
+}
+
+p:nth-of-type(2)::first-line {  /*Afeta a primeira linha do 2° parágrafo */
+	font-weight: bold;
+}
+
+[title] {    
+	color: rgb(0, 208, 255);  /*Títulos das Section terão essa cor*/
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1, h2, [title]:hover {
+	color: rgb(191, 0, 255);
+}
+
+input {
+    font-size: 16px;
+    border: 1px solid #cccc;
+    border-radius: 3px;
+    width: 100px;
+}
+
+body{
+    display: block;
+}
+
+/*Pseudo-Class*/
+
+ul li:first-child {
+    font-weight: bold;  /*O primeiro filho do ul terá essa configuração */
+}
+
+ul li:nth-child(odd) {   /*Tag <li> em posições ímpares*/
+    color: blueviolet;
+    background-color: rgb(243, 240, 255);
+}
+
+ul li:nth-child(even) {    /*Tag <li> em posições pares*/
+    color: rgb(212, 100, 130);
+}
+
+article p:nth-child(2) {   /*Pega de forma direta o p da segunda posição */
+    color:rgb(144, 220, 191);
+    font-size:18px;
+}
+
+article p:nth-of-type(1) {  /*Pegue dos tipos "p" o primeiro item*/
+    font-weight: bold;
+}
+
+/*Hover-Focus*/
+a:hover {
+    color: rgb(194, 24, 220);
+    text-decoration: none;
+}
+
+input:focus {
+    border-color: rgb(0, 0, 0);
+    outline: none;
+}
+
+/*Disabled - Required*/
+
+input:disabled {
+    color: #fff;
+    background-color: rgb(243, 109, 88);
+}
+
+input:required {
+    color:#fff;
+    background-color: rgb(135, 79, 149);
+}
+
+/*Pseudo-Elements*/
+
+nav > ul > li::before{
+    content: "";
+}
+
+nav > ul > li::after{
+    content: "";
+    width: 0;
+    height: 0;
+}
+
+li::before {
+    content: "💜"   /*Antes dos elementos*/
+}
+
+li{
+    position: relative; 
+}
+
+li::after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: rgb(30, 30, 32);
+  position: absolute;
+  margin-left: 5px;
+  bottom: 4px;
+}

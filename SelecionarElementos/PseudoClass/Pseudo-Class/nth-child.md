@@ -1,6 +1,6 @@
 # nth-child
 
-É quando queremos selecionar o primeiro filho de um grupo de elementos.
+Seleciona algum elemento a depender da posição de um grupo de irmãos (elementos diretamente ligados)
 
 ```html
 <article>

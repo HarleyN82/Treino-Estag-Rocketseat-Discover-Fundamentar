@@ -121,7 +121,6 @@ Muitas vezes, um simples uso de classes, torna o trabalho mais eficiente.
 }
 ```
 
-
 <!--
 Tags vs Elementos: https://tableless.github.io/iniciantes/manual/html/oquetags.html
 ->
