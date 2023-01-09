@@ -17,4 +17,6 @@
 
 exemplos
 block: `<p> <div> <section>`, todos os headings `<h1><h2>...`
-insline: `<a> <span> <strong> <em>`
+inline: `<a> <span> <strong> <em>`
+
+Obs: Sempre que quiser que um elemento fique do lado do primeiro coloque a propriedade "inline" no primeiro, visto que, a partir da suposição de que o esse primeiro seja a tag <p>, então por padrão ela é `block`, logo ocupará toda a extensão daquela linha. Assim, ao colocarmos essa propriedade nessa tag, a sua extensabilidade irá diminuir.
