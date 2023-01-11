@@ -1,10 +1,14 @@
 const modalWrapper = document.querySelector('.modal-wrapper');
 const btnOpenModal = document.getElementById('openModal');
+const div = document.querySelector('#div');
 
 function click(){
     modalWrapper.classList.toggle('invisible');
     console.log("abri")
 }
+
+div.setAttribute('class','p-8 bg-white text-center rounded')
+div.innerText = "Tecle ESC para fechar"
 
 function esc(){''
     modalWrapper.classList.remove('invisible');
