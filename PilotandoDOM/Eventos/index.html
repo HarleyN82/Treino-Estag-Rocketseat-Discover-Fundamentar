@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selecionando Elementos com JS</title>
+    <title>Eventos com JS</title>
 </head>
 <body>
 
-    <h1 id="blog-title">Meu Blog</h1>
-    <p class="one">Texto Aleatório</p>
-    <p class="one">Texto Aleatório 2</p>
-    <a href="" title="ancora">Link</a>
+    <!-- Evento no HTML: Coloca como atributo "on..." -->
 
+    <header>
+        <h1 onChange="print()">Meu Blog</h1>
+        <p onClick="print()">Texto aleatório</p>
+        <p id="p2">Outro evento</p>
+        <input type="text">
+    </header>
+    
     <script src="./script.js" defer></script>
     
 </body>
