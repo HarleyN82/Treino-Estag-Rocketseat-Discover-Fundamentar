@@ -14,7 +14,7 @@ function esc(){
 
 btnOpenModal.onkeydown = function (e) {
     console.log('Pressionei o ESC')
-    if(e.currentTarget.value = 27){
+    if(e.key === 'Escape'){  // currentTarget.value = 27
         esc();
     }
 }
