@@ -69,7 +69,6 @@ color: red;
 ## Attribute Selector
 
 Um elemento que tenha um atributo específico
-HTML
 
 ```html
 <h1 title="Algum titlulo">Título da página</h1>
@@ -85,7 +84,6 @@ HTML
 ## Pseudo-class Selector
 
 Elementos em um estado específico
-HTML
 
 ```html
 <h1 class="red big">Título da página</h1>
