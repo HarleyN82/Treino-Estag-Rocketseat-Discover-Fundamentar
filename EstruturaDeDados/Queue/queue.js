@@ -21,6 +21,10 @@ class Queue {
         return isEmpty
     }
 
+    front(){
+        return console.log("O primeito item da fila é " + this.data[0]);
+    }
+
     enqueue(value){
         if(this.isFull()){
             console.log(`Ops! ${value} não poderá entrar. Fila cheia!`);
@@ -40,6 +44,14 @@ class Queue {
             console.log(`${value} saiu na fila!`)
         }
     }
+
+    display(){
+        if(this.isEmpty()){
+            console.log(`Ops! Não há nada aqui. Fila vazia!`);
+        } else{
+            console.log(`Minha fila: ${this.data}`)
+        }
+    }
 }
 
 // Passo 02: Utilizando 
@@ -53,9 +65,16 @@ myQueue.enqueue("Júlia");
 myQueue.enqueue("Matheus");
 console.log(myQueue.isFull());
 
-// Passo 04: Remover dados
+// Passo 04: Todos os itens 
+myQueue.display();
+
+// Passo 05: Primeiro item da fila
+myQueue.front();
+
+// Passo 06: Remover dados
 myQueue.dequeue();
 myQueue.dequeue();
+myQueue.front();
 myQueue.dequeue();
 console.log(myQueue.isEmpty());
 myQueue.dequeue();

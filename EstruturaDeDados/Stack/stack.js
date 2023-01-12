@@ -18,23 +18,35 @@ class Stack {
 
     push(value){
         if (this.isFull()) {
-            return console.log("Pilha cheia, a adição de novos elementos não é possivel");
+            return console.log(`Ops! ${value} não pode entrar. Pilha cheia!`);
         } else{
             this.top++
             this.data[this.top] = value; // Na posição base irá receber o valor
-            console.log("Foi adicionado um novo valor: " + value);
+            console.log(`${value} chegou na pilha`);
             return this.data
         }
     }
 
     pop(){
-        if(this.top < 0) return undefined
-        const poppedTop = this.data[this.top]
-        delete this.data[this.top]
-        this.top--
-        console.log("Foi retirado o topo da pilha: " + poppedTop)
-        return poppedTop
+        if(this.isEmpty()) {
+            return "A pilha está vazia"
+        } else {
+            this.top--
+           const del = this.data.pop();
+           console.log(`${del} saiu da pilha!`)
+        }
     }
+
+    /*
+        pop(){
+            if(this.top < 0) return undefined
+            const poppedTop = this.data[this.top]
+            delete this.data[this.top]
+            this.top--
+            console.log("Foi retirado o topo da pilha: " + poppedTop)
+            return poppedTop
+        }
+    */
 
     peek(){
         if(this.isEmpty()) {
@@ -50,7 +62,7 @@ class Stack {
             console.log("A pilha está vazia")
             return 
         } else{
-            return console.log(this.data)
+            return console.log("Minha Pilha:", this.data.toString())
         }
     }
 }

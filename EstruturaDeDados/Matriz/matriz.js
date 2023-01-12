@@ -31,4 +31,4 @@ exibe()
                 console.log(books[linha][coluna])
             } else{
                 console.log("|" + books[linha][coluna])
-            }*/
+}*/
