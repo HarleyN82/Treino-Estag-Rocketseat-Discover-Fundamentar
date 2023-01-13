@@ -1,0 +1,31 @@
+## Links de Referência
+
+- https://qastack.com.br/programming/9518646/tree-view-of-a-directory-folder-in-windows#:~:text=O%20comando%20do%20Windows%20tree%20%2Ff%20%2Fa%20produz,um%20arquivo%20de%20texto%20usando%20o%20%3E%20par%C3%A2metro.
+- https://www.howtogeek.com/363639/how-to-use-the-dir-command-in-windows/
+- https://www.tecmundo.com.br/macos/1636-o-que-e-kernel-.htm
+- https://www.significados.com.br/kernel/
+- https://www.geeksforgeeks.org/what-is-terminal-console-shell-and-kernel/
+- https://www.dell.com/support/kbdoc/pt-br/000130703/o-prompt-what-it-is-and-how-to-use-it-on-a-dell-system
+- https://www.lifewire.com/definition-of-network-switch-817588
+- https://br.easeus.com/file-recovery/como-mostrar-arquivos-ocultos-pelo-cmd-painel-controle-software.html#1
+- https://programadoresbrasil.com.br/2020/03/prompt-de-comando-para-iniciantes/#:~:text=O%20Prompt%20de%20Comando%20%28cmd.exe%29%20ajuda%20a%20escrever,NT%20%28incluindo%20Serve%203%2CWindows%202000%2C%20Windows%20XP%2CWindows7%2CWindows%208%29.
+- https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/windows-commands
+- https://www.minitool.com/news/how-to-use-dir-command.html
+- https://learn.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows
+- https://www.uniaogeek.com.br/guia-de-comandos-cmd-terminal-do-windows/
+- https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32356.listando-os-perfis-de-usuarios-via-windows-powershell.aspx
+- https://www.ibm.com/docs/en/aix/7.2?topic=l-ls-command
+- https://learn.microsoft.com/pt-br/windows-server/administration/windows-commands/dir
+- https://learn.microsoft.com/pt-br/windows/terminal/
+- https://programadoresbrasil.com.br/2020/03/prompt-de-comando-para-iniciantes/#:~:text=O%20Prompt%20de%20Comando%20%28cmd.exe%29%20ajuda%20a%20escrever,NT%20%28incluindo%20Serve%203%2CWindows%202000%2C%20Windows%20XP%2CWindows7%2CWindows%208%29.
+- https://pt.begin-it.com/338-how-to-use-the-dir-command-in-windows#:~:text=O%20comando%20DIR%20%C3%A9%20uma%20poderosa%20fun%C3%A7%C3%A3o%20de,oferece%20alguns%20switches%20que%20desbloqueiam%20algumas%20funcionalidades%20poderosas.
+- https://www.windowsnoticias.com/pt/visualizar-arquivo-cmd-de-conte%C3%BAdo/#:~:text=Como%20mencionamos%2C%20apesar%20de%20n%C3%A3o%20ser%20o%20mais,cont%C3%A9m%20o%20arquivo%20usando%20o%20comando%20cd%20ruta-directorio.
+- https://www.iperiusbackup.net/pt-br/aprendendo-a-localizar-e-abrir-arquivos-utilizando-o-prompt-de-comando/
+-https://superuser.com/questions/272338/what-is-the-equivalent-to-the-linux-file-command-for-windows
+- https://vocepergunta.com/library/artigo/read/186335-como-criar-arquivo-em-cmd
+- https://pt.wikihow.com/Criar-e-Apagar-Arquivos-de-Diret%C3%B3rios-Atrav%C3%A9s-do-Prompt-de-Comando
+- https://acervolima.com/mover-comando-cmd/#:~:text=A%20movimenta%C3%A7%C3%A3o%20%C3%A9%20um%20comando%20interno%20encontrado%20no,da%20inclus%C3%A3o%20de%20curingas%20no%20caminho%20de%20origem.
+- https://br.easeus.com/pc-transfer/copiar-arquivo-pelo-cmd.html#:~:text=Qual%20%C3%A9%20o%20comando%20para%20copiar%20um%20arquivo,pressione%20Command%20%2B%20V%20para%20copiar%20os%20arquivos.
+- https://pt.wikihow.com/Copiar-Arquivos-no-Prompt-de-Comando
+- https://br.ccm.net/faq/29941-como-copiar-arquivos-com-o-cmd-do-windows
+- https://br.easeus.com/pc-transfer/copiar-arquivo-pelo-cmd.html#:~:text=Qual%20%C3%A9%20o%20comando%20para%20copiar%20um%20arquivo,pressione%20Command%20%2B%20V%20para%20copiar%20os%20arquivos.
