@@ -31,7 +31,7 @@ ou, fazer uso de aspas, da seguinte forma:
 
 `cd "Diretório com espaços/"`
 
-## Obtendo informações dos arquivos
+## Listando arquivos e pastas
 
 **Linux**
 Vamos falar sobre o comando que lista arquivos e pastas, o ls. Quando utilizado sem nenhum argumento, irá listar os arquivos e diretórios dentro de determinada pasta, quando utilizado com o argumento -l, irá mostrar as permissões dos arquivos, qual o dono e o grupo e o tamanho dos arquivos e diretórios em bytes (se usado com -h, será mostrado de forma mais fácil de compreender, com K, M, G, etc), se usado com o argumento a, mostra também os arquivos ocultos do sistema, se utilizado com o argumento R, fica formatado de forma recursiva, mostrando uma árvore dos seus diretórios, e por fim, o argumeto S ordena os seus arquivos por tamanho.
@@ -135,7 +135,6 @@ Para renomear ARQUIVOS, deve ser utilizado da seguite forma:
 
 `mv file.txt arquivo.txt`
 
-
 **Windows**
 
 `move samara.txt ./../Pasta02`
@@ -161,27 +160,79 @@ E, às vezes ele pode acabar pedindo sua permissão para deletar algo, e caso vo
 `rm -rf file1.txt file2.txt`
 Tome muito cuidado com esse comando!
 
-
 **Windows**
 `del resumo.txt`
 
 
 ## Wildcards (curingas)
 
+os Wildcard (ou curingas) são * e ?.
 
+Começando pelo *, utilizado da seguinte forma:
+
+`mv fil* Diretorio`
+Nesse cenário, todos os arquivos com as primeiras letras fil, seriam movidas para a pasta Diretorio, ou seja, se eu tivesse 3 arquivos com nomes file1 file2 e file3, ou mesmo 500 arquivos com as 3 primeiras letras em seu nome sendo fil, seriam movidos para a pasta Diretorio.
+
+Já o ? é utilizado de forma similar, observe o exemplo abaixo:
+
+`mv -r site? Diretorio`
+Suponhamos que nessa pasta, exista a pasta site, site1, site2, site3, site4, site5 e site67.
+
+Nesse cenário, iríamos estar movendo apenas as pastas com um número ao seu final, fazendo o comando ignorar a pasta site e a pasta site67, pois apenas um dígito após a wildcard é passado.
+
+**Windows**
+`move sites/Pas* sites2`
+Selecionar 1 ou mais caracteres
+
+`move sites2/pasta? sites2`
+Mover pastas específicas
 
 
 ## Encontrar arquivos ou pastas com find
 
+Nesta aula falaremos sobre o comando find, utilizado para encontrar pastas e arquivos, e sua sintaxe é:
 
+`find <caminho> arg [expression]`
+No caso, se deseja usar o finder no seu diretório atual, você pode usar um ponto (.), sendo assim, você substituiria o <path> pelo diretório que deseja
 
+Já o arg, é o tipo de item que deseja encontrar, seja esse uma pasta ou um arquivo.
+
+Usaremos para buscar um arquivo, então teremos que usar o arg -type e colocar a letra f, caso quiséssemos uma pasta, seria a letra d após o -type.
+
+Também temos o argumento -name, que é o nome do arquivo ou pasta que desejamos, e caso quiséssemos que as letras pesquisadas sejam independentes de capitalização (maiúsculo, minúsculo), deve-se usar o argumento -inamepodendo também ser usado para buscar uma extensão específica de arquivo. Exemplo abaixo.
+
+`find . -type f -name "*.mp4"`
+Assim que fosse executado, esse comando exibiria todos os arquivos .mp4 no seu diretório atual.
+
+**Windows**
+`dir "*file name*" /s`  ---- ` dir "*.md*" /s`
+Substitua "file name" pelo nome do arquivo(pasta)/tipo do arquivo.
 
 ## Ver conteúdo de arquivos com cat e less
 
+Para ver os coteúdos de um arquivo, pode-se usar o camando less, que tem a mesma ideia do manual, ou seja, pode-se apertar o h e ver como se usa o less em mais detalhes.
 
+Já o cat, vai printar direto na tela o conteúdo do arquivo, possibilitando subir e descer no conteúdo com o scroll do mouse.
 
+Caso tente abrir um arquivo binário, ou seja, um arquivo que não possua texto para ossos olhos humanos, como um png, mp4 ou jpeg com esses comandos, receberá uma mensagem de aviso e uma pergunta se ainda deseja vê-lo, caso a resposta seja não, pressione enter, caso seja sim, pressione y.
+
+**Windows**
+
+`type <fileName.tipo>` (susbtitui o "less"/"cat")
+Podemos vê o conteúdo de dentro dos arquivos
+
+`type file1.txt file2.txt > resultfile.txt`
+Esse comando é usado para concatenar arquivos e de quebra criar um novo
 
 ## Editando arquivos com nano e vim
+
+Nesta aula, veremos como editar arquivos com o nano, que é um editor de texto, porém, você não pode usar seu mouse, para navegar usam-se as setinhas do teclado, e embaixo fica a legenda do que pode ser feito, através da tecla Ctrl e mais alguma letra, por exemplo a combinação Ctrl + O Salvaria esse arquivo, mas antes seria perguntado se deseja salvar o arquivo com o mesmo nome, caso responda que não, será mostrada uma tela para alterar o nome do arquivo.
+
+Para fechar o nano, o atalho é o Ctrl + X
+
+O vim é muito mais complexo que o nano, e pode-se inserir plugins nele, tornando-o mais poderoso. Para sair do vim, usa-se o comando :q
+
+Porém, se tiver feito alguma alteração, ele vai precisar ou do comando :wq, para confirmar, escrever essas mudanças e sair, ou do comando :q!, que cancela as alterações.
 
 
 ## Exibir todos os aquivos e pastas e tudo dentro

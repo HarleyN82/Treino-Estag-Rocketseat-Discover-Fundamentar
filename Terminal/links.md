@@ -1,5 +1,10 @@
 ## Links de Referência
 
+- https://qastack.com.br/superuser/938093/nano-alternative-for-windows-powershell#:~:text=Agora%20existe%20uma%20maneira%20de%20usar%20nano%20e,adicionar%20essas%20fun%C3%A7%C3%B5es%20ao%20seu%20perfil%20do%20PowerShell
+- https://www.windowsnoticias.com/pt/visualizar-arquivo-cmd-de-conte%C3%BAdo/
+- https://shellgeek.com/use-cat-equivalent-type-command-in-windows/
+- https://blog.elgscreen.com/comandos-do-powershell/
+- https://terminalroot.com.br/2015/07/20-exemplos-do-comando-find.html (unix)
 - https://qastack.com.br/programming/9518646/tree-view-of-a-directory-folder-in-windows#:~:text=O%20comando%20do%20Windows%20tree%20%2Ff%20%2Fa%20produz,um%20arquivo%20de%20texto%20usando%20o%20%3E%20par%C3%A2metro.
 - https://www.howtogeek.com/363639/how-to-use-the-dir-command-in-windows/
 - https://www.tecmundo.com.br/macos/1636-o-que-e-kernel-.htm
