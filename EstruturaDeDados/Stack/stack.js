@@ -71,17 +71,17 @@ class Stack {
 const myStack = new Stack(3);
 
 // Passo 03: Adicionar dados
-myStack.push('learning')
-myStack.push('data')
-console.log(myStack.push('structures'))
+myStack.push('arroz')
+myStack.push('feijao')
+console.log(myStack.push('sucrilho'))
 
 console.log(myStack.peek())
 
 // Passo 04: Remover dados
 myStack.pop()
 
-myStack.push('Food')
-myStack.push('Friend')
+myStack.push('macarrao')
+myStack.push('coca-cola')
 
 // Passo 05: Tamanho da Pilha
 console.log("Tamanho da Pilha: " + myStack.size)

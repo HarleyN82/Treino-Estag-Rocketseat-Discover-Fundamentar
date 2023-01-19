@@ -49,7 +49,7 @@ class Queue {
         if(this.isEmpty()){
             console.log(`Ops! Não há nada aqui. Fila vazia!`);
         } else{
-            console.log(`Minha fila: ${this.data}`)
+            console.log(`Minha fila: ${this.data.toString()}`)
         }
     }
 }
