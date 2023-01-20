@@ -14,4 +14,4 @@ console.log(path.isAbsolute('/NodeJS/Pratica'))
 
 // Meus módulos
 const myModule = require('./exports')
-console.log(myModule)
+console.log(myModule[0])  // myModule[0]

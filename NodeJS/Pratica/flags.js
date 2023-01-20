@@ -1,7 +1,5 @@
-// Process
-// Objeto que vai estar falando sobre os processos que estão sendo executados no node
-// argv - é usada para inserir argumentos
-// lista de argumentos
+// Flags
+// É o termo para referenciar os valores expostos. Seria a nossa chave (pensando em objeto)
 
 console.log(process.argv)
 const firstName = process.argv[3]
