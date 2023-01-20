@@ -20,4 +20,5 @@ Supondo que você acompanhe algum canal do youtube. Quando um vídeo é publicad
 
 ## Referências
 
-https://www.geeksforgeeks.org/node-js-util-inherits-method/
+- https://www.geeksforgeeks.org/node-js-util-inherits-method/
+- https://stackoverflow.com/questions/53784176/when-extending-eventemitter-to-my-class-using-super-this-name-returns-undef
