@@ -7,10 +7,15 @@ Use o App ao final de cada dia para refletir sobre sua jornada.
 
 A se comunicar com o processo enquanto ele estiver rodando
 
-[] process.stdout
-[] process.stdin
-[] process.exit
-[] process.on
+[] `process.stdout` 
+    - Saída de dados 
+    - Semelhante ao console.log
+[] `process.stdin`
+    - Entrada de dados
+[] `process.exit`
+    - Para o processo
+[] `process.on`
+    - Escuta o processo
 
 * Assincronismo
 
