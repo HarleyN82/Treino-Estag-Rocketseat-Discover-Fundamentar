@@ -44,7 +44,7 @@ app.get("/",function(req,res){
         }
     ]
 
-    const subtitle = "Uma linguagem de modelagem para criação de págin aHTML utilizando JavaScript"
+    const subtitle = "Uma linguagem de modelagem para criação de página HTML utilizando JavaScript"
 
     res.render("pages/index", {
         qualitys: items,
