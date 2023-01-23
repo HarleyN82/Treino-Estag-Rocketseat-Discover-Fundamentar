@@ -4,12 +4,13 @@
 // Está em desuso - Uma outra alternativa seria com POO clásico
 
 const {inherits} = require('util')
+const {EventEmitter} = require('events')
 
 function Character(name){
     this.name = name
 }
 
-inherits(Character,EventEmitter)
+inherits(Character, EventEmitter)
 
 const chapolin = new Character('Chapolin');
 chapolin.on('help', () => console.log(`Não temas! Eu sou o ${chapolin.name} colorado`))
