@@ -28,3 +28,8 @@ Algumas empresas fornecem serviços de banco de dados para podermos guardar noss
 - mongoDB
 - Oracle 
 - ...
+
+## Baixar a Plataforma Beekeeper Studio 
+
+https://www.beekeeperstudio.io/
+Vamos usar esse editor para usar o serviço de bando de dados do SQlite
