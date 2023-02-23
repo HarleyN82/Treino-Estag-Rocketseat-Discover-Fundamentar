@@ -4,7 +4,7 @@
 <br>
 ![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=6EDCE2&style=for-the-badge)
 
-## ABOUT US
+## Curso Fullstack FrontEnd - Fase 01 - Básico e Intermediário
 > Este repositório tem como por objetivo registar meu desenvolvimento e projetos aplicados no curso de Front-End, ofertando pela plataforma Rocketseat.
 
 ## Conteúdo 
