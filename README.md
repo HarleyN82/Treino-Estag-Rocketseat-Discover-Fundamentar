@@ -1,5 +1,5 @@
 ![ROCKETSEATFUNDAMENTAR](https://user-images.githubusercontent.com/113690864/221015038-ae0a7ecf-fa85-42df-9ae1-934d4bca54ad.gif)
-<br><br><br>
+<br><br>
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Trilha+do+Estagiário!+Fundamentar;JS,CSS,Html+e+mais!&pause=1000&color=6EDCE2&width=435)](https://git.io/typing-svg)
 <br>
 ![Badge Concluido](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=6EDCE2&style=for-the-badge)
@@ -23,5 +23,6 @@
   - AulaX - NomeDoProjeto
   
 ## Registro
+- Ao todo foram 24 módulos equivalente a um curso de x horas.
 - `Aula 23` : 17/10 ✔️
 - Todas as Aulas: 03/11/22 - 26/01/23 (3 meses)
